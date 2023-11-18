@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("What do you want to calculate?");
-        System.out.print("Enter 'S' for Simple Interest, 'P' for Principal amount, 'R' for Rate and 'T' for Time : ");
+        System.out.print("Enter 'SI' for Simple Interest, 'P' for Principal amount, 'R' for Rate and 'T' for Time : ");
         String input = sc.next();
         char inp = input.charAt(0);
 
@@ -121,7 +121,7 @@ public class Main {
                 float time = time_d / year;
                 // System.out.println(time);
                 float rate = (interest * 100) / (amount * time);
-                System.out.println("Rate per annum : Rs. " + rate);
+                System.out.println("Rate per annum : Rs. " + rate + " %");
             }
             else if (inp_time == 'W' || inp_time == 'w') {
                 System.out.print("Enter number of weeks : ");
@@ -130,7 +130,7 @@ public class Main {
                 float time = time_w / year;
                 // System.out.println(time);
                 float rate = (interest * 100) / (amount * time);
-                System.out.println("Rate per annum : Rs. " + rate);
+                System.out.println("Rate per annum : Rs. " + rate + " %");
             }
             else if (inp_time == 'M' || inp_time == 'm') {
                 System.out.print("Enter number of months : ");
@@ -139,14 +139,14 @@ public class Main {
                 float time = time_m / year;
                 // System.out.println(time);
                 float rate = (interest * 100) / (amount * time);
-                System.out.println("Rate per annum : Rs. " + rate);
+                System.out.println("Rate per annum : Rs. " + rate + " %");
             }
             else if (inp_time == 'Y' || inp_time == 'y') {
                 System.out.print("Enter number of years : ");
                 float time = sc.nextFloat();
                 // System.out.println(time);
                 float rate = (interest * 100) / (amount * time);
-                System.out.println("Rate per annum : Rs. " + rate);
+                System.out.println("Rate per annum : Rs. " + rate + " %");
             }
             else {
                 System.out.println("Invalid Input...");
