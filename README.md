@@ -1,4 +1,4 @@
-Simple Interest Calculator
+# Simple Interest Calculator
 This Java program calculates Simple Interest, Principal amount, Rate of Interest, and Time period based on user input. It provides a straightforward way to perform calculations for financial purposes.
 
 Table of Contents :
